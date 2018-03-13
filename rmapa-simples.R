@@ -68,7 +68,7 @@ pontos2@data[,2]
 ### ---------------------------------------------------------------------------
 
 # Carregar a tabela
-upa<-read.csv("SITE_POSTS/R/Mapa_simples/data/upa.csv",sep = ";", header = T, stringsAsFactors = F)
+upa<-read.csv("data/upa.csv",sep = ";", header = T, stringsAsFactors = F)
 
 # Visualizar os dados como tabela
 View(upa)
